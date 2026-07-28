@@ -1,0 +1,6 @@
+w1=str(input("enter a string : "))
+w2=str(input("enter other string : "))
+if sorted(w1)==sorted(w2):
+    print(w1,"and",w2,"are anagrams")
+else:
+    print("they are not anagram")
